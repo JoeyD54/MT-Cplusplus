@@ -1,0 +1,228 @@
+
+The order of the spawned threads might vary
+
+****************************************
+**      Framework: 3.77               **
+**   C++ Compiler: 192930146          **
+**  Tools Version: 14.29.30133        **
+**    Windows SDK: 10.0.20348.0       **
+**   Mem Tracking: enabled            **
+**           Mode: x86 Debug          **
+****************************************
+**         Thread: 1.23               **
+****************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+------ Testing DEBUG ----------
+
+
+ --- PROBLEM X ---
+
+thread(  448) main: begin()
+	thread( 4584) Con_A: begin()
+	thread(18184) Con_B: begin()
+	thread(12168) Con_C: begin()
+	thread( 8648) Con_D: begin()
+	thread(10804)  Prod: begin()
+		( Prod): --> aaaa
+		(Con_A): 0x5555 <--- 
+		( Prod): --> bbbb
+		(Con_B): 0x4444 <--- 
+		( Prod): --> 4444
+		(Con_C): 0xbbbb <--- 
+		( Prod): --> cccc
+		(Con_D): 0x3333 <--- 
+		( Prod): --> eeee
+		(Con_A): 0x1111 <--- 
+		( Prod): --> 1111
+		(Con_B): 0xeeee <--- 
+		( Prod): --> 6666
+		(Con_C): 0x9999 <--- 
+		( Prod): --> 3333
+		(Con_D): 0xcccc <--- 
+		( Prod): --> 2222
+		(Con_A): 0xdddd <--- 
+	thread( 4584) Con_A: end()
+	thread(10804)  Prod: end()
+	thread(18184) Con_B: end()
+	thread( 8648) Con_D: end()
+	thread(12168) Con_C: end()
+thread(  448) main: end()
+ PASSED: Problem_X_Test 
+
+ --- PROBLEM Y ---
+
+thread(  448) main: begin()
+	thread(17052) Con_A: begin()
+	thread( 7476) Con_B: begin()
+	thread(15860) Con_C: begin()
+	thread( 2272) Con_D: begin()
+	thread(13920)  Prod: begin()
+		( Prod): --> aaaa
+		(Con_A): 0x5555 <--- 
+		( Prod): --> bbbb
+		(Con_B): 0x4444 <--- 
+		( Prod): --> 4444
+		(Con_C): 0xbbbb <--- 
+		( Prod): --> cccc
+		(Con_D): 0x3333 <--- 
+		( Prod): --> eeee
+		(Con_A): 0x1111 <--- 
+		( Prod): --> 1111
+		(Con_B): 0xeeee <--- 
+		( Prod): --> 6666
+		(Con_C): 0x9999 <--- 
+		( Prod): --> 3333
+		(Con_D): 0xcccc <--- 
+		( Prod): --> 2222
+		(Con_A): 0xdddd <--- 
+	thread( 2272) Con_D: end()
+	thread( 7476) Con_B: end()
+	thread(13920)  Prod: end()
+	thread(15860) Con_C: end()
+	thread(17052) Con_A: end()
+thread(  448) main: end()
+ PASSED: Problem_Y_Test 
+
+ --- PROBLEM Z ---
+
+thread(  448) main: begin()
+	thread(18340) Con_A: begin()
+	thread(11060) Con_B: begin()
+	thread(18564) Con_C: begin()
+	thread( 9824) Con_D: begin()
+	thread( 5108)  Prod: begin()
+		( Prod): --> aaaa
+		(Con_D): 0x5555 <--- 
+		(Con_B): 0x5555 <--- 
+		(Con_C): 0x5555 <--- 
+		(Con_A): 0x5555 <--- 
+		( Prod): --> bbbb
+		(Con_C): 0x4444 <--- 
+		(Con_B): 0x4444 <--- 
+		(Con_A): 0x4444 <--- 
+		(Con_D): 0x4444 <--- 
+		( Prod): --> 4444
+		(Con_C): 0xbbbb <--- 
+		(Con_B): 0xbbbb <--- 
+		(Con_A): 0xbbbb <--- 
+		(Con_D): 0xbbbb <--- 
+		( Prod): --> cccc
+		(Con_B): 0x3333 <--- 
+		(Con_C): 0x3333 <--- 
+		(Con_D): 0x3333 <--- 
+		(Con_A): 0x3333 <--- 
+		( Prod): --> eeee
+		(Con_B): 0x1111 <--- 
+		(Con_A): 0x1111 <--- 
+		(Con_C): 0x1111 <--- 
+		(Con_D): 0x1111 <--- 
+		( Prod): --> 1111
+		(Con_C): 0xeeee <--- 
+		(Con_A): 0xeeee <--- 
+		(Con_B): 0xeeee <--- 
+		(Con_D): 0xeeee <--- 
+		( Prod): --> 6666
+		(Con_B): 0x9999 <--- 
+		(Con_A): 0x9999 <--- 
+		(Con_C): 0x9999 <--- 
+		(Con_D): 0x9999 <--- 
+		( Prod): --> 3333
+		(Con_C): 0xcccc <--- 
+		(Con_A): 0xcccc <--- 
+		(Con_D): 0xcccc <--- 
+		(Con_B): 0xcccc <--- 
+		( Prod): --> 2222
+		(Con_A): 0xdddd <--- 
+		(Con_D): 0xdddd <--- 
+		(Con_C): 0xdddd <--- 
+		(Con_B): 0xdddd <--- 
+	thread(18340) Con_A: end()
+	thread( 5108)  Prod: end()
+	thread(18564) Con_C: end()
+	thread( 9824) Con_D: end()
+	thread(11060) Con_B: end()
+thread(  448) main: end()
+ PASSED: Problem_Z_Test 
+
+ --- PROBLEM W ---
+
+thread(  448) main: begin()
+	thread( 6220) Con_A: begin()
+	thread(17760) Con_B: begin()
+	thread( 3352) Con_D: begin()
+	thread(14652) Con_C: begin()
+	thread(18720)  Prod: begin()
+		( Prod): --> aaaa
+		(Con_C): 0x5555 <--- 
+		(Con_A): 0x5555 <--- 
+		(Con_D): 0x5555 <--- 
+		(Con_B): 0x5555 <--- 
+		( Prod): --> bbbb
+		(Con_B): 0x4444 <--- 
+		(Con_D): 0x4444 <--- 
+		(Con_C): 0x4444 <--- 
+		(Con_A): 0x4444 <--- 
+		( Prod): --> 4444
+		(Con_A): 0xbbbb <--- 
+		(Con_B): 0xbbbb <--- 
+		(Con_C): 0xbbbb <--- 
+		(Con_D): 0xbbbb <--- 
+		( Prod): --> cccc
+		(Con_D): 0x3333 <--- 
+		(Con_C): 0x3333 <--- 
+		(Con_B): 0x3333 <--- 
+		(Con_A): 0x3333 <--- 
+		( Prod): --> eeee
+		(Con_B): 0x1111 <--- 
+		(Con_A): 0x1111 <--- 
+		(Con_D): 0x1111 <--- 
+		(Con_C): 0x1111 <--- 
+		( Prod): --> 1111
+		(Con_C): 0xeeee <--- 
+		(Con_A): 0xeeee <--- 
+		(Con_D): 0xeeee <--- 
+		(Con_B): 0xeeee <--- 
+		( Prod): --> 6666
+		(Con_B): 0x9999 <--- 
+		(Con_C): 0x9999 <--- 
+		(Con_A): 0x9999 <--- 
+		(Con_D): 0x9999 <--- 
+		( Prod): --> 3333
+		(Con_C): 0xcccc <--- 
+		(Con_B): 0xcccc <--- 
+		(Con_A): 0xcccc <--- 
+		(Con_D): 0xcccc <--- 
+		( Prod): --> 2222
+		(Con_A): 0xdddd <--- 
+		(Con_D): 0xdddd <--- 
+		(Con_B): 0xdddd <--- 
+		(Con_C): 0xdddd <--- 
+	thread( 6220) Con_A: end()
+	thread(18720)  Prod: end()
+	thread(17760) Con_B: end()
+	thread( 3352) Con_D: end()
+	thread(14652) Con_C: end()
+thread(  448) main: end()
+ PASSED: Problem_W_Test 
+
+  --- Tests Results ---    
+
+[x86 Debug] Ignored: 0
+[x86 Debug]  Passed: 4
+[x86 Debug]  Failed: 0
+
+   Test Count: 4
+ Indiv Checks: 110
+         Mode: x86 Debug 
+
+-----------------
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------

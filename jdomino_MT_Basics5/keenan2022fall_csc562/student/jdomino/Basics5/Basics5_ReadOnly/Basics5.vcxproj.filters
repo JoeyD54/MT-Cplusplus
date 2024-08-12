@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_Framework">
+      <UniqueIdentifier>{f04c9286-e219-4fb7-b306-f9717e9aba86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Do NOT modify">
+      <UniqueIdentifier>{e92ca29b-4937-4528-bd5c-8e9a35ac565c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Test">
+      <UniqueIdentifier>{45b29b8e-e691-4c44-bdf2-d78d8ef1d448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Refactor">
+      <UniqueIdentifier>{20856119-44cc-42a4-b268-b2dac0a09714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unit Test Configuration %28Enable Tests here%29">
+      <UniqueIdentifier>{31f36816-c1f6-4a46-bea1-f324286762f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Test\Kill_CHECK.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Do NOT modify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Basics5\A.cpp">
+      <Filter>Source Files\Refactor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Basics5\B.cpp">
+      <Filter>Source Files\Refactor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Basics5\C.cpp">
+      <Filter>Source Files\Refactor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Basics5\Controller.cpp">
+      <Filter>Source Files\Refactor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Basics5\D.cpp">
+      <Filter>Source Files\Refactor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Basics5\SharedData.cpp">
+      <Filter>Source Files\Refactor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Basics5\ThreadCount.cpp">
+      <Filter>Source Files\Refactor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Basics5\SimulatedMain.cpp">
+      <Filter>Source Files\Refactor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Framework\__DO NOT MODIFY__">
+      <Filter>_Framework</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Framework\Framework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\ThreadFramework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Basics5\_UnitTestConfiguration.h">
+      <Filter>Source Files\Unit Test Configuration %28Enable Tests here%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Basics5\A.h">
+      <Filter>Source Files\Refactor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Basics5\B.h">
+      <Filter>Source Files\Refactor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Basics5\C.h">
+      <Filter>Source Files\Refactor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Basics5\Controller.h">
+      <Filter>Source Files\Refactor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Basics5\D.h">
+      <Filter>Source Files\Refactor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Basics5\SharedData.h">
+      <Filter>Source Files\Refactor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Basics5\ThreadCount.h">
+      <Filter>Source Files\Refactor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\ProjectSettings.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Basics5\SimulatedMain.h">
+      <Filter>Source Files\Refactor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Basics5\ThreadCountProxy.h">
+      <Filter>Source Files\Refactor</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

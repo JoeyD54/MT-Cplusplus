@@ -1,0 +1,283 @@
+
+****************************************
+**      Framework: 3.76               **
+**   C++ Compiler: 192930146          **
+**  Tools Version: 14.29.30133        **
+**    Windows SDK: 10.0.20348.0       **
+**   Mem Tracking: enabled            **
+**           Mode: x86 Debug          **
+****************************************
+**         Thread: 1.22               **
+****************************************
+
+--------------------------------
+    Memory Tracking: start()    
+--------------------------------
+
+thread(16380) -MAIN-: begin()
+------ Testing DEBUG ----------
+
+
+ --- PROBLEM 1 ---
+
+	thread( 8136) A1: begin()
+	thread(18388) A2: begin()
+	thread( 4584) A3: begin()
+		(A2): ------
+		(A2): d.a: 1000
+		(A2): d.b: 1000
+		(A2): d.c: 1000
+		(A2): d.d: 1000
+		(A2): d.e: 1000
+		(A2): ------
+		(A2): d.a: 3000
+		(A2): d.b: 3000
+		(A2): d.c: 3000
+		(A2): d.d: 3000
+		(A2): d.e: 3000
+		(A3): ------
+		(A3): d.a: 13000
+		(A3): d.b: 13000
+		(A3): d.c: 13000
+		(A3): d.d: 13000
+		(A3): d.e: 13000
+		(A3): ------
+		(A3): d.a: 33000
+		(A3): d.b: 33000
+		(A3): d.c: 33000
+		(A3): d.d: 33000
+		(A3): d.e: 33000
+		(A1): ------
+		(A1): d.a: 33100
+		(A1): d.b: 33100
+		(A1): d.c: 33100
+		(A1): d.d: 33100
+		(A1): d.e: 33100
+		(A1): ------
+		(A1): d.a: 33300
+		(A1): d.b: 33300
+		(A1): d.c: 33300
+		(A1): d.d: 33300
+		(A1): d.e: 33300
+	thread(18388) A2: end()
+	thread( 4584) A3: end()
+	thread( 8136) A1: end()
+
+ PASSED: Unit_1_Test 
+
+ --- PROBLEM 2 ---
+
+name(Lisa):33 
+name(Jay ):555 
+name(Mike):4444 
+
+	thread(17960) T1: begin()
+	thread(16860) T2: begin()
+	thread(13652) T3: begin()
+	thread( 1528) T4: begin()
+	thread(17076) T5: begin()
+	thread( 9688) T6: begin()
+		(T3): val:20
+		(T3): --------
+		(T3): name(Mike):4464 
+		(T3): name(Lisa):53 
+		(T3): name(Jay ):575 
+		(T3): --------
+	thread(13652) T3: end()
+		(T2): val:10
+		(T2): --------
+		(T2): name(Jay ):585 
+		(T2): name(Mike):4474 
+		(T2): name(Lisa):63 
+		(T2): --------
+	thread(16860) T2: end()
+		(T6): val:10
+		(T6): --------
+		(T6): name(Mike):4484 
+		(T6): name(Jay ):595 
+		(T6): name(Lisa):73 
+		(T6): --------
+	thread( 9688) T6: end()
+		(T5): val:30
+		(T5): --------
+		(T5): name(Lisa):103 
+		(T5): name(Mike):4514 
+		(T5): name(Jay ):625 
+		(T5): --------
+	thread(17076) T5: end()
+		(T4): val:25
+		(T4): --------
+		(T4): name(Jay ):650 
+		(T4): name(Lisa):128 
+		(T4): name(Mike):4539 
+		(T4): --------
+	thread( 1528) T4: end()
+		(T1): val:15
+		(T1): --------
+		(T1): name(Lisa):143 
+		(T1): name(Jay ):665 
+		(T1): name(Mike):4554 
+		(T1): --------
+	thread(17960) T1: end()
+
+ PASSED: Unit_2_Test 
+
+ --- PROBLEM 3 ---
+
+name(Lisa):33 
+name(Jay ):555 
+name(Mike):4444 
+
+	thread(13524) T1: begin()
+	thread(15848) T2: begin()
+	thread( 1584) T3: begin()
+	thread( 7488) T4: begin()
+	thread(11188) T5: begin()
+	thread(13444) T6: begin()
+		(T5): val:30
+		(T5): --------
+		(T5): name(Lisa):63 
+		(T5): name(Mike):4474 
+		(T5): name(Jay ):585 
+		(T5): --------
+	thread(11188) T5: end()
+		(T2): val:10
+		(T2): --------
+		(T2): name(Jay ):595 
+		(T2): name(Mike):4484 
+		(T2): name(Lisa):73 
+		(T2): --------
+	thread(15848) T2: end()
+		(T1): val:15
+		(T1): --------
+		(T1): name(Lisa):88 
+		(T1): name(Jay ):610 
+		(T1): name(Mike):4499 
+		(T1): --------
+	thread(13524) T1: end()
+		(T6): val:10
+		(T6): --------
+		(T6): name(Mike):4509 
+		(T6): name(Jay ):620 
+		(T6): name(Lisa):98 
+		(T6): --------
+	thread(13444) T6: end()
+		(T4): val:25
+		(T4): --------
+		(T4): name(Jay ):645 
+		(T4): name(Lisa):123 
+		(T4): name(Mike):4534 
+		(T4): --------
+	thread( 7488) T4: end()
+		(T3): val:20
+		(T3): --------
+		(T3): name(Mike):4554 
+		(T3): name(Lisa):143 
+		(T3): name(Jay ):665 
+		(T3): --------
+	thread( 1584) T3: end()
+
+ PASSED: Unit_3_Test 
+
+ --- PROBLEM 4 ---
+
+name(Lisa):33 
+name(Jay ):555 
+name(Mike):4444 
+
+	thread(11840) T1: begin()
+	thread( 7352) T2: begin()
+	thread(17628) T3: begin()
+	thread(18960) T4: begin()
+	thread(12672) T5: begin()
+	thread(17720) T6: begin()
+		(T1): val:15
+		(T1): --------
+		(T1): name(Lisa):48 
+		(T1): name(Jay ):570 
+		(T1): name(Mike):4459 
+		(T1): --------
+	thread(11840) T1: end()
+		(T6): val:10
+		(T6): --------
+		(T6): name(Mike):4469 
+		(T6): name(Jay ):580 
+		(T6): name(Lisa):58 
+		(T6): --------
+	thread(17720) T6: end()
+		(T4): val:25
+		(T4): --------
+		(T4): name(Jay ):605 
+		(T4): name(Lisa):83 
+		(T4): name(Mike):4494 
+		(T4): --------
+	thread(18960) T4: end()
+		(T3): val:20
+		(T3): --------
+		(T3): name(Mike):4514 
+		(T3): name(Lisa):103 
+		(T3): name(Jay ):625 
+		(T3): --------
+	thread(17628) T3: end()
+		(T2): val:10
+		(T2): --------
+		(T2): name(Jay ):635 
+		(T2): name(Mike):4524 
+		(T2): name(Lisa):113 
+		(T2): --------
+	thread( 7352) T2: end()
+		(T5): val:30
+		(T5): --------
+		(T5): name(Lisa):143 
+		(T5): name(Mike):4554 
+		(T5): name(Jay ):665 
+		(T5): --------
+	thread(12672) T5: end()
+
+ PASSED: Unit_4_Test 
+
+ --- PROBLEM 5 ---
+
+	thread(18356) T2: begin()
+	thread( 1968) T1: begin()
+	thread( 7680) T3: begin()
+	thread(16452) T4: begin()
+	thread(18300) T5: begin()
+		(T5): --> SetAlpha (014FFA0C):Killer
+		(T5): Alpha Dog: Killer SetCount:1
+	thread(18300) T5: end()
+		(T3): --> SetAlpha (014FFA24):Fluffy
+		(T3): Alpha Dog: Killer SetCount:1
+	thread( 7680) T3: end()
+		(T1): --> SetAlpha (014FFA3C):Snoopy
+		(T1): Alpha Dog: Killer SetCount:1
+	thread( 1968) T1: end()
+		(T4): --> SetAlpha (014FFA18):Rex   
+		(T4): Alpha Dog: Killer SetCount:1
+	thread(16452) T4: end()
+		(T2): --> SetAlpha (014FFA30):Fido  
+		(T2): Alpha Dog: Killer SetCount:1
+	thread(18356) T2: end()
+
+	(-MAIN-): Alpha Dog: Killer SetCount:1
+
+ PASSED: Unit_5_Test 
+
+  --- Tests Results ---    
+
+[x86 Debug] Ignored: 0
+[x86 Debug]  Passed: 5
+[x86 Debug]  Failed: 0
+
+   Test Count: 5
+ Indiv Checks: 90
+         Mode: x86 Debug 
+
+-----------------
+thread(16380) -MAIN-: end()
+
+--------------------------------
+    Memory Tracking: passed 
+--------------------------------
+    Memory Tracking: end()      
+--------------------------------

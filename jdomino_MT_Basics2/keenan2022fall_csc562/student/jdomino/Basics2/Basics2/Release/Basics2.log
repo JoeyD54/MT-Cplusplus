@@ -1,0 +1,26 @@
+﻿  A_Thread.cpp
+  B_Thread.cpp
+  C_Thread.cpp
+  D_Thread.cpp
+  E_Thread.cpp
+  F_Thread.cpp
+  G_Thread.cpp
+  H_Thread.cpp
+  I_Thread.cpp
+  J_Thread.cpp
+  K_Thread.cpp
+  L_Thread.cpp
+  A.cpp
+  B.cpp
+  C.cpp
+  D.cpp
+  I.cpp
+  J.cpp
+  K.cpp
+  L.cpp
+  main.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1118 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Basics2.vcxproj -> C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_Basics2\keenan2022fall_csc562\student\jdomino\Basics2\Release\Basics2.exe

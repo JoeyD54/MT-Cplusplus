@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_Framework">
+      <UniqueIdentifier>{f04c9286-e219-4fb7-b306-f9717e9aba86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Do NOT Modify">
+      <UniqueIdentifier>{5a7c098e-cc35-4051-89a9-34e3a7e943a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unit Test Configuration %28Enable Tests here%29">
+      <UniqueIdentifier>{20856119-44cc-42a4-b268-b2dac0a09714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Refactor">
+      <UniqueIdentifier>{d4d5caf8-be0f-4d47-b1fa-a985d53e8590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Test">
+      <UniqueIdentifier>{98d76033-811b-43ea-90c3-5b31188038a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Refactor\Problem1">
+      <UniqueIdentifier>{3aad2400-2652-432e-9df2-c576b5039c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Refactor\Problem2">
+      <UniqueIdentifier>{4198321a-59e5-43cb-8f8e-e69d0983db3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Refactor\Problem3">
+      <UniqueIdentifier>{710a4b7b-42e5-448c-aef3-77276170e604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Refactor\Problem4">
+      <UniqueIdentifier>{bd6b512f-987c-4384-9a69-6ac6377d0626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Refactor\Problem5">
+      <UniqueIdentifier>{1102788a-0f61-41bf-abca-4d043d20038a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Do NOT Modify</Filter>
+    </ClCompile>
+    <ClCompile Include="Attack.cpp">
+      <Filter>Source Files\Do NOT Modify</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem_1_ReadOnly.cpp">
+      <Filter>Source Files\Do NOT Modify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Basics3\Student4.cpp">
+      <Filter>Source Files\Refactor\Problem4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Basics3\AlphaDog.cpp">
+      <Filter>Source Files\Refactor\Problem5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Basics3\Dog.cpp">
+      <Filter>Source Files\Refactor\Problem5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Basics3\Problem_1.cpp">
+      <Filter>Source Files\Refactor\Problem1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Basics3\Problem_2.cpp">
+      <Filter>Source Files\Refactor\Problem2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Basics3\Student2.cpp">
+      <Filter>Source Files\Refactor\Problem2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Basics3\Problem_3.cpp">
+      <Filter>Source Files\Refactor\Problem3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Basics3\Student3.cpp">
+      <Filter>Source Files\Refactor\Problem3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Basics3\Program_4.cpp">
+      <Filter>Source Files\Refactor\Problem4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Test_1.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Test_2.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Test_3.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Test_4.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\Test_5.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Framework\__DO NOT MODIFY__">
+      <Filter>_Framework</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Framework\Framework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\ProjectSettings.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\ThreadFramework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Attack.h">
+      <Filter>Source Files\Do NOT Modify</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem_2.h">
+      <Filter>Source Files\Do NOT Modify</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem_3.h">
+      <Filter>Source Files\Do NOT Modify</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem_4.h">
+      <Filter>Source Files\Do NOT Modify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Basics3\_UnitTestConfiguration.h">
+      <Filter>Source Files\Unit Test Configuration %28Enable Tests here%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Basics3\Student4.h">
+      <Filter>Source Files\Refactor\Problem4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Basics3\AlphaDog.h">
+      <Filter>Source Files\Refactor\Problem5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Basics3\Dog.h">
+      <Filter>Source Files\Refactor\Problem5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Basics3\Problem_1.h">
+      <Filter>Source Files\Refactor\Problem1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Basics3\Student2.h">
+      <Filter>Source Files\Refactor\Problem2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Basics3\Student3.h">
+      <Filter>Source Files\Refactor\Problem3</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

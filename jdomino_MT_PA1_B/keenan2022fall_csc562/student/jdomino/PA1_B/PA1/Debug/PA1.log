@@ -1,0 +1,39 @@
+﻿  Buffer.cpp
+  CircularData.cpp
+  CircularIndex.cpp
+  CoordinatorThread.cpp
+  FileThread.cpp
+  KillThread.cpp
+  main.cpp
+  PlaybackThread.cpp
+  ThreadBase.cpp
+  ThreadCounter.cpp
+  ThreadCountManager.cpp
+  WaveBuffThread.cpp
+  WaveFillCmd.cpp
+  WaveOutCallback.cpp
+  WaveOutManager.cpp
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\PA1\CoordinatorThread.h(67,1): warning C4623: 'CoordinatorThread': default constructor was implicitly defined as deleted (compiling source file PlaybackThread.cpp)
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\PA1\PlaybackThread.cpp(27,31): warning C4458: declaration of 'pInstance' hides class member
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\PA1\PlaybackThread.h(62,25): message : see declaration of 'PlaybackThread::pInstance' (compiling source file PlaybackThread.cpp)
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\PA1\PlaybackThread.cpp(23,6): warning C4189: 'count': local variable is initialized but not referenced
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\PA1\FileThread.cpp(51,48): warning C4456: declaration of 'lck' hides previous local declaration
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\PA1\FileThread.cpp(41,34): message : see declaration of 'lck'
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\PA1\FileThread.cpp(59,49): warning C4456: declaration of 'lck' hides previous local declaration
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\PA1\FileThread.cpp(41,34): message : see declaration of 'lck'
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\PA1\CoordinatorThread.h(67,1): warning C4623: 'CoordinatorThread': default constructor was implicitly defined as deleted (compiling source file CoordinatorThread.cpp)
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\PA1\CoordinatorThread.cpp(20,2): warning C5038: data member 'CoordinatorThread::inQueue' will be initialized after data member 'CoordinatorThread::currentBuffFlag'
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\PA1\CoordinatorThread.cpp(21,2): warning C5038: data member 'CoordinatorThread::currentBuffFlag' will be initialized after data member 'CoordinatorThread::pDrainBuffer'
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\PA1\CoordinatorThread.cpp(22,2): warning C5038: data member 'CoordinatorThread::pDrainBuffer' will be initialized after data member 'CoordinatorThread::pFillBuffer'
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\PA1\CoordinatorThread.h(67,1): warning C4623: 'CoordinatorThread': default constructor was implicitly defined as deleted (compiling source file WaveOutCallback.cpp)
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\PA1\WaveOutCallback.cpp(4,98): warning C4100: 'param2': unreferenced formal parameter
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\PA1\WaveOutCallback.cpp(4,40): warning C4100: 'woHandle': unreferenced formal parameter
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\PA1\CoordinatorThread.h(67,1): warning C4623: 'CoordinatorThread': default constructor was implicitly defined as deleted (compiling source file main.cpp)
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\PA1\CoordinatorThread.h(67,1): warning C4623: 'CoordinatorThread': default constructor was implicitly defined as deleted (compiling source file WaveBuffThread.cpp)
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\PA1\CoordinatorThread.h(67,1): warning C4623: 'CoordinatorThread': default constructor was implicitly defined as deleted (compiling source file WaveOutManager.cpp)
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\PA1\WaveOutManager.cpp(4,3): warning C5038: data member 'WaveOutManager::woHandle' will be initialized after data member 'WaveOutManager::wavePlayer'
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\PA1\WaveOutManager.cpp(22,40): warning C4365: 'initializing': conversion from 'int' to 'unsigned long', signed/unsigned mismatch
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\PA1\Buffer.cpp(12,2): warning C5038: data member 'Buffer::usedSize' will be initialized after data member 'Buffer::status'
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\PA1\CoordinatorThread.h(67,1): warning C4623: 'CoordinatorThread': default constructor was implicitly defined as deleted (compiling source file WaveFillCmd.cpp)
+  LINK : C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\Debug\PA1.exe not found or not built by the last incremental link; performing full link
+  PA1.vcxproj -> C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_PA1_B\keenan2022fall_csc562\student\jdomino\PA1_B\Debug\PA1.exe

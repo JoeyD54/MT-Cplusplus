@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TopDownDFS" Collapsed="true">
+    <Position X="0.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>TopDownDFS.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentBaseSolver" Collapsed="true">
+    <Position X="6.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABCAAAAAAAAAAAAAAAAAAAAAAAAQgAAAA=</HashCode>
+      <FileName>StudentBaseSolver.h</FileName>
+      <NewMemberFileName>SkippingMazeSolver.h</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="STMazeSolverBFS" Collapsed="true">
+    <Position X="8.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAAAAAAAAAAAAAEBBAABAoAAAIAAAAAAAAEAAQCAA=</HashCode>
+      <FileName>STMazeSolverBFS.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="STMazeSolverDFS" Collapsed="true">
+    <Position X="6.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>STMazeSolverDFS.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BottomUpDFS" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>BottomUpDFS.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

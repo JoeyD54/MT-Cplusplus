@@ -1,0 +1,20 @@
+﻿  Consumer_W.cpp
+  Consumer_X.cpp
+  Consumer_Y.cpp
+  Consumer_Z.cpp
+  SharedData.cpp
+  Test_01_X.cpp
+  Test_02_Y.cpp
+  Test_03_Z.cpp
+  Test_04_W.cpp
+  Producer.cpp
+  main.cpp
+  ReadOnly_Consumer_X.cpp
+  ReadOnly_Consumer_Y.cpp
+  ReadOnly_Conusmer_W.cpp
+  ReadOnly_Conusmer_Z.cpp
+  ReadOnly_Producer.cpp
+  ReadOnly_SharedData.cpp
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_Basics4\keenan2022fall_csc562\student\jdomino\Basics4\Basics4\Consumer_X.cpp(31,29): warning C4365: '=': conversion from 'int' to 'unsigned short', signed/unsigned mismatch
+C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_Basics4\keenan2022fall_csc562\student\jdomino\Basics4\Basics4\Consumer_Y.cpp(30,29): warning C4365: '=': conversion from 'int' to 'unsigned short', signed/unsigned mismatch
+  Basics4.vcxproj -> C:\Users\playd\Perforce\Multithreading C++ 562\jdomino_MT_Basics4\keenan2022fall_csc562\student\jdomino\Basics4\Debug\Basics4.exe

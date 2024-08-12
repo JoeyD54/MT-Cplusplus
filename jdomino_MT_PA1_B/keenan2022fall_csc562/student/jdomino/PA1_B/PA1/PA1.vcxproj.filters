@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_Framework">
+      <UniqueIdentifier>{f04c9286-e219-4fb7-b306-f9717e9aba86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MODIFY and ADD files here">
+      <UniqueIdentifier>{20856119-44cc-42a4-b268-b2dac0a09714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_FileSlow">
+      <UniqueIdentifier>{5bb3f0e5-5636-475a-8601-d0d05efef70a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_FileSlow\include">
+      <UniqueIdentifier>{e07da70e-1dbf-4e91-99e7-0de1173a2cc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_FileSlow\lib">
+      <UniqueIdentifier>{491e36f9-bd1c-4ec4-a168-860356ec8b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MODIFY and ADD files here\KillThread">
+      <UniqueIdentifier>{de700729-cc57-4db9-b70d-263832871c9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MODIFY and ADD files here\FileThread">
+      <UniqueIdentifier>{2be87f24-4378-4efb-8db7-a6454543695c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MODIFY and ADD files here\CoorThread">
+      <UniqueIdentifier>{7b0a70d5-53ac-49f6-91aa-365546c8f1e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MODIFY and ADD files here\Buffer">
+      <UniqueIdentifier>{22a30cd5-95f8-48a4-8e24-75700ef4ff53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MODIFY and ADD files here\Playback">
+      <UniqueIdentifier>{04bcdf9f-3cb6-43a1-8ffd-9ddcce414fd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MODIFY and ADD files here\Diagrams">
+      <UniqueIdentifier>{0669ad23-987d-4ce1-9b1e-41bd959b9cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MODIFY and ADD files here\Wave">
+      <UniqueIdentifier>{cd58b609-a485-43c8-8dec-d6575e688fd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MODIFY and ADD files here\Playback\CircleQueue">
+      <UniqueIdentifier>{aacd4cf5-cd80-433f-9c93-646845502dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MODIFY and ADD files here\Command">
+      <UniqueIdentifier>{133cedf9-39e5-42a6-9997-91ce96f3cfca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MODIFY and ADD files here\BaseThread">
+      <UniqueIdentifier>{e45690aa-10d5-458b-9496-e2782da9b876}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\MODIFY and ADD files here</Filter>
+    </ClCompile>
+    <ClCompile Include="KillThread.cpp">
+      <Filter>Source Files\MODIFY and ADD files here\KillThread</Filter>
+    </ClCompile>
+    <ClCompile Include="FileThread.cpp">
+      <Filter>Source Files\MODIFY and ADD files here\FileThread</Filter>
+    </ClCompile>
+    <ClCompile Include="CoordinatorThread.cpp">
+      <Filter>Source Files\MODIFY and ADD files here\CoorThread</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadCounter.cpp">
+      <Filter>Source Files\MODIFY and ADD files here\KillThread</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadCountManager.cpp">
+      <Filter>Source Files\MODIFY and ADD files here\KillThread</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>Source Files\MODIFY and ADD files here\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadBase.cpp">
+      <Filter>Source Files\MODIFY and ADD files here\BaseThread</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaybackThread.cpp">
+      <Filter>Source Files\MODIFY and ADD files here\Playback</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveBuffThread.cpp">
+      <Filter>Source Files\MODIFY and ADD files here\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveOutManager.cpp">
+      <Filter>Source Files\MODIFY and ADD files here\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveOutCallback.cpp">
+      <Filter>Source Files\MODIFY and ADD files here\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularIndex.cpp">
+      <Filter>Source Files\MODIFY and ADD files here\Playback\CircleQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularData.cpp">
+      <Filter>Source Files\MODIFY and ADD files here\Playback\CircleQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveFillCmd.cpp">
+      <Filter>Source Files\MODIFY and ADD files here\Command</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Framework\__DO NOT MODIFY__">
+      <Filter>_Framework</Filter>
+    </None>
+    <None Include="ThreadDiagram.cd">
+      <Filter>Source Files\MODIFY and ADD files here\Diagrams</Filter>
+    </None>
+    <None Include="CommandDiagram.cd">
+      <Filter>Source Files\MODIFY and ADD files here\Diagrams</Filter>
+    </None>
+    <None Include="WaveThreadsDiagram.cd">
+      <Filter>Source Files\MODIFY and ADD files here\Diagrams</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Framework\Framework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\ProjectSettings.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\ThreadFramework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dist\FileSlow\include\FileSlow.h">
+      <Filter>_FileSlow\include</Filter>
+    </ClInclude>
+    <ClInclude Include="KillShare.h">
+      <Filter>Source Files\MODIFY and ADD files here\KillThread</Filter>
+    </ClInclude>
+    <ClInclude Include="KillThread.h">
+      <Filter>Source Files\MODIFY and ADD files here\KillThread</Filter>
+    </ClInclude>
+    <ClInclude Include="CoordinatorThread.h">
+      <Filter>Source Files\MODIFY and ADD files here\CoorThread</Filter>
+    </ClInclude>
+    <ClInclude Include="FileThread.h">
+      <Filter>Source Files\MODIFY and ADD files here\FileThread</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadCounter.h">
+      <Filter>Source Files\MODIFY and ADD files here\KillThread</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadCountManager.h">
+      <Filter>Source Files\MODIFY and ADD files here\KillThread</Filter>
+    </ClInclude>
+    <ClInclude Include="KillEventWrapper.h">
+      <Filter>Source Files\MODIFY and ADD files here\KillThread</Filter>
+    </ClInclude>
+    <ClInclude Include="FileCoordShare.h">
+      <Filter>Source Files\MODIFY and ADD files here\FileThread</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Source Files\MODIFY and ADD files here\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadBase.h">
+      <Filter>Source Files\MODIFY and ADD files here\BaseThread</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaybackThread.h">
+      <Filter>Source Files\MODIFY and ADD files here\Playback</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveBuffThread.h">
+      <Filter>Source Files\MODIFY and ADD files here\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveOutManager.h">
+      <Filter>Source Files\MODIFY and ADD files here\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveOutCallback.h">
+      <Filter>Source Files\MODIFY and ADD files here\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularIndex.h">
+      <Filter>Source Files\MODIFY and ADD files here\Playback\CircleQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularData.h">
+      <Filter>Source Files\MODIFY and ADD files here\Playback\CircleQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveFillCmd.h">
+      <Filter>Source Files\MODIFY and ADD files here\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Source Files\MODIFY and ADD files here\Command</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Dist\FileSlow\lib\FileSlow_X86Debug.lib">
+      <Filter>_FileSlow\lib</Filter>
+    </Library>
+    <Library Include="..\Dist\FileSlow\lib\FileSlow_X86Release.lib">
+      <Filter>_FileSlow\lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ThreadBase">
+    <Position X="2.25" Y="1" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAQAAgEAQAAAAAEEAAAQAAAAAgAAAAAAA=</HashCode>
+      <FileName>ThreadBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoordinatorThread">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CoordinatorThread::Status" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CoordinatorThread.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAQABAABAAIABgEEEAABAAAgCAAAAAAAgAAiABAAAAA=</HashCode>
+      <FileName>CoordinatorThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileThread">
+    <Position X="9" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAABAAAAgAAAEABBBABACBAAAAAAggBiAAAAAAA=</HashCode>
+      <FileName>FileThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KillThread">
+    <Position X="5.5" Y="2.25" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="KillThread::KeyPress" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>KillThread.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAEAAAAcAAAAAAAAGAAAQAAAAAkCAAAAAA=</HashCode>
+      <FileName>KillThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaybackThread">
+    <Position X="10.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBACAQAAQAAABAAAMAgBAAAACAAAIAAAgAAiAAAAAAA=</HashCode>
+      <FileName>PlaybackThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaveBuffThread">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="WaveBuffThread::Status" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>WaveBuffThread.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CASAgAAAAAAIAAAAEAAAAAAACAAABEAAAAAgAEAAACA=</HashCode>
+      <FileName>WaveBuffThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
